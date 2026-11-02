@@ -20,13 +20,25 @@ Claude Shield 是一个面向 macOS 的**本机连接守护实验项目**。它�
 
 ![Claude Shield 管理页面：模拟出口不符合基线时的阻断状态](docs/images/connection-blocked.png)
 
+### 桌宠形象与实时检测面板
+
+桌宠是连接守护的独立本机配套工具：点击角色可查看保护状态、发起检查和查看异常提示。
+
+<img src="docs/images/pet-character.webp" alt="Claude 桌宠角色形象" width="220">
+
+<img src="docs/images/pet-panel-demo.png" alt="Claude 桌宠实时检测面板，使用隔离演示数据" width="620">
+
+> 界面使用隔离演示数据，`203.0.113.42` 为文档示例地址。图中 Surge 自动恢复是原个人版功能，当前开源版已关闭。桌宠源码、立绘包和安装包不随本仓库提供。
+
+**角色素材许可：**形象使用 [CrossPet / lokicorvus 的 Claude 角色素材](https://github.com/lokicorvus/crosspet/tree/6e98970f6ff9b44e8ac85215241cabcd78f67d92/characters/claude)，基于社区 Claude 娘设定；原图及包含该形象的截图依 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 使用，需署名、仅限非商业用途、以相同方式共享。面板截图对角色作了缩放展示；这些图片不适用仓库代码的 MIT 许可。
+
 ### 原生警报演练
 
 下面是本机桌宠配套工具的警报演练界面：异常时可以提示原因和处理步骤。此图使用模拟状态，没有切断真实连接，也没有使用真实账号或网络配置。
 
 <img src="docs/images/alert-rehearsal.png" alt="原生警报演练：模拟异常与处理步骤" width="410">
 
-**桌宠和原生警报属于独立的本机配套工具，未包含在当前开源仓库或安装包中。** 上图只展示配套工具的演练界面，不代表克隆本仓库即可获得桌宠、声音提醒或该弹窗。截图未包含第三方角色立绘。
+**桌宠和原生警报属于独立的本机配套工具，未包含在当前开源仓库或安装包中。** 上图只展示配套工具的演练界面，不代表克隆本仓库即可获得桌宠、声音提醒或该弹窗。上方警报演练截图未包含第三方角色立绘。
 
 ## 它能做什么
 
