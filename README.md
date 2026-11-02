@@ -1,4 +1,4 @@
-# Claude Shield · Claude 连接保护
+# Claude 防封守护盾 · Claude Shield
 
 面向 macOS 的本机连接守护实验项目：在已配置的本地 HTTP 代理前增加一层 CONNECT 网关，核验预期出口与配置状态，在异常时阻断已接入的连接。项目与 Anthropic 无关联。
 
